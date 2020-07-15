@@ -63,8 +63,8 @@ jobs:
            git clone  https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman  
            
            # ==========以上是示范如何加入tar.xz解包和拉github源码编译==========
-       - name: 自定义插件主题
-        run: |
+      - name: 自定义插件主题
+        run: 
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
